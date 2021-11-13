@@ -10,6 +10,7 @@
 
 // Kata.getMiddle("A") should return "A"
 function getMiddle(s) {
+  //declaring variables
   //Code goes here!
   let middle;
   let length;
