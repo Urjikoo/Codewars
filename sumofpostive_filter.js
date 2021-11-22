@@ -15,3 +15,21 @@ function positiveSum(arr) {
   }
   return total; // return total
 }
+// param is numbers; declating a function that sum all of the numbers in the array but if the array does
+// not contain number it will return 0;declare a conditional that checks whther there is a number in the array or not
+// or not. and if there is a number , use a method reduce to add all the numbers in the array else return 0
+function sum (numbers) {
+    "use strict";
+    let total =0
+    for (let i=0; i<numbers.length; i++){
+      if(numbers[i]<0){
+        let summing= (a, b) => ((a+b),0)
+        let total= numbers.reduce(summing)
+      }else{
+        total=0
+      }
+
+    }
+  return total
+
+};
