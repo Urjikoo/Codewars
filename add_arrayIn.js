@@ -10,6 +10,7 @@
 // ex. [ 1, 6, 2,  8, 10 ] => 2+6+8=> 16
 
 // declare a function that returns the sum of the array;decare a variable(numbers1) and assign it to arr.sort to sort in ascending order.;declare a variable assign it to numbers1.slice(1,-1)=> that will remove the lowest and highest numbers. declare the finalOutput var and use a reduce method to sum the numbers in the array.
+//
 function addNumbers(arr) {
   var numbers1 = arr.sort((a, b) => a - b);
   let numbers2 = numbers1.slice(1, -1);
