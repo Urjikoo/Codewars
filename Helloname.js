@@ -26,3 +26,4 @@ function greeting(input) {
 }
 console.log(greeting(""));
 // latest P
+//adding to git
