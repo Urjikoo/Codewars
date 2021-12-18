@@ -9,7 +9,7 @@
 // create a for loop that gets the previous character and if the previous character is an upper case, then converte it to a lower case
 // // else if the previous character is a lowercase then we convert it to an upper case
 
-// //return the result
+// //return the result.
 
 function alternativeLetters(string) {
   let results = "";
