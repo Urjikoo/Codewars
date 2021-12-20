@@ -18,3 +18,5 @@ function addNumbers(arr) {
   console.log(finalNumbers);
 }
 addNumbers([22, 3, 4, 14, 32]);
+
+//updating
