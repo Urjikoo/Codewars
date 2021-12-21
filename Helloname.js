@@ -17,11 +17,12 @@ function hello(name) {
 // world!
 // declare a function that allows user to input their name and returns hello the user name or hello world
 // declare a conditional to achieve hello world if there is no response!
- function greeting(input){
-   if(input===''){
-     console.log('hello World!')
-   }else{
-     console.log('hello '+input)
-   }
- }
-console.log(greeting(''))
+function greeting(input) {
+  if (input === "") {
+    console.log("hello World!");
+  } else {
+    console.log("hello " + input);
+  }
+}
+console.log(greeting(""));
+// latest P
