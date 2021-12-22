@@ -16,8 +16,9 @@ function reverseWords(str) {
 // param is a string; declaring a function that returns the words/string reversed;ex. i'm walking=>gniklaw m'i
 // declare a function: user a method split to create a substrings;use a method to reverse it: afterwards we use a method join to create a string.
 
-function reverseW(){
-  const str="hello my name is hana"
-  console.log(str.split("").reverse().join(''))
+function reverseW() {
+  const str = "hello my name is hana";
+  console.log(str.split("").reverse().join(""));
 }
-reverseW()
+reverseW();
+// updated-R
