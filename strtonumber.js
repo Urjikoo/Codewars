@@ -10,7 +10,8 @@ var stringToNumber = function (str) {
 // param is a string; declaring a function that returns a number;
 // ex "23"=> 23
 // declare a function: use a method Number to return a number
-function convert(str){
-  return Number(str)
+function convert(str) {
+  return Number(str);
 }
-convert('23')=>23
+//convert('23')=> 23
+//test 3rd patch git
