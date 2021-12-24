@@ -38,3 +38,4 @@ function twoSums(nums, target) {
 }
 
 twoSums([3, 2, 4], 7);
+// the target index challenge
