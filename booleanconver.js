@@ -19,4 +19,4 @@ function checker(input){
     return null
   }
 }
-console.log(checker(false))
+ console.log(checker(false))
